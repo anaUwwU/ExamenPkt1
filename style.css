@@ -1,0 +1,34 @@
+.container-cart-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.container-info p{
+    margin: 0px;
+}
+.containericon-user{
+    flex: 1;
+}
+.containericon-user i{
+    font-size: 40px;
+}
+.container-info{
+    flex: 3;
+    text-align: initial;
+}
+.container-info span{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.text-label-info{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration:wavy;
+}
