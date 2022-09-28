@@ -19,7 +19,7 @@ const fakedb = window.localStorage
 // Area de funciones
 const guardarcontacto = (db,data) =>{
     db.setItem(data.id, JSON.stringify(data))
-    window.location.href = '/'
+    window.location.href = '/ExamenPkt1'
 }
 
 const crearcardcontacto = (parent, contacto , db) =>{
@@ -66,7 +66,7 @@ const crearcardcontacto = (parent, contacto , db) =>{
     btneliminar.onclick = (event) => {
         event.preventDefault()
         db.removeItem(btneliminar.value)
-        window.location.href = '/'
+        window.location.href = '/ExamenPkt1'
     }
 
     
