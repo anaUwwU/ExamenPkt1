@@ -291,6 +291,12 @@ background: linear-gradient(315deg,#42d392 25%,#66fcf1);
       }
     
 }
+@media only screen and (max-width: 1872px) {
+   
+    .tittle h2{
+        margin-left: -50%;
+    }
+}
 @media only screen and (max-width: 600px) {
    
     .container1 {
@@ -324,4 +330,7 @@ left: 0%;
       .listcontacto{
           width: 90%;
       }
+      .tittle h2{
+        margin-left: 0%;
+    }
 }
