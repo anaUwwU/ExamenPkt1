@@ -15,13 +15,33 @@
     
         <main>
 
-            <section>
+            <section id="sectionp">
+                <div class="midleicon">
+
+                </div>
                 <div>
-                    <h1>Hellow world uwu</h1> 
+                    <div class="header-custom">
+                        <div class="name">
+                           <h3>Erika Anahi Silva Zavala</h3>
+                        </div>
+                        <div class="tittle">
+                            <h2>Prueba <span>PKT1</span> </h2> 
+                        </div>
+                        <div class="seccion-fecha">
+                            <span>FECHA</span> <p id="fechatext"></p>
+                         </div>
+
+                         <div class="planeta-izq">
+                            <img src="./assets/images/planeta1.png">
+                         </div>
+                         <div class="planeta-der">
+                            <img src="./assets/images/planeta2.png">
+                        </div>
+                    </div>
 
                     <div class="container text-center">
                         <div class="row">
-                          <div class="col-sm-6">
+                          <div class="col-sm-6 container1">
                             <div class="container-list">
                                 <div class="tittle-1">
                                     <h2>
@@ -36,7 +56,7 @@
                                 </div>
                             </div>
                           </div>
-                          <div class="col-6">
+                          <div class="col-5 container2">
                             <div class="container-add">
                                 <div class="tittle-2">
                                     <h2>
@@ -45,22 +65,34 @@
                                 </div>
 
                                 <div class="container-from">
-                                    <form>
+                                    <form novalidate>
                                         <div class="mb-3">
                                           <p>Nombre</p>
                                           <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                                          <div id="validatorn" class="desaparecer">
+                                              <span>El nombre es requerido *</span>
+                                          </div>
                                         </div>
                                         <div class="mb-3">
                                           <p>Direccion</p>
                                           <input type="text" class="form-control" id="direccion" placeholder="Colonia, Calle, Numero, Cp">
+                                          <div id="validatornd" class="desaparecer">
+                                            <span>la direccion es requerido *</span>
+                                        </div>
                                         </div>
                                         <div class="mb-3">
                                             <p>Telefono</p>
                                             <input type="text" class="form-control" id="telefono">
+                                            <div id="validatort" class="desaparecer">
+                                                <span>El telefono es requerido *</span>
+                                            </div>
                                         </div>
                                         <div class="mb-3">
                                             <p>Correo</p>
-                                            <input type="text" class="form-control" id="correo">
+                                            <input type="text" class="form-control" id="correo" required>
+                                            <div id="validatorc" class="desaparecer">
+                                                <span>El correo es requerido *</span>
+                                            </div>
                                           </div>
                                         <button type="submit" class="btn btn-primary" id="guardarbtn">Guardar</button>
                                     </form>
@@ -70,6 +102,11 @@
                         </div>
                       </div>
                 </div>
+                <div class="mundoizq">
+                    <img src="./assets//images/planeta2.png">
+                </div>
+
+              
             </section>
 
         </main>
