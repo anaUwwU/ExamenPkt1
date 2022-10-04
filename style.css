@@ -68,7 +68,9 @@ color: white;
 }
 
 
-
+.tittle > h2{
+       margin-left: -50%;
+}
 
 .container-cart-list{
     display: flex;
